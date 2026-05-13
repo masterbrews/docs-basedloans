@@ -30,14 +30,6 @@ Based Loans is a zero-liquidation lending protocol built on Base.
 
 Deposit tokens as collateral, receive a USDC loan for a fixed term. Buy back your collateral at any time before it expires. No margin calls. No forced selling. No surprises.
 
-#### [How It Works](how-it-works/README.md)
+#### [Explore Based Loans](welcome-to-based-loans/introduction.md)
 
-Understand the pawn shop model, loan terms, and how collateral pricing works.
-
-#### [Start Borrowing](borrowing/README.md)
-
-Learn how to open a loan, buy back your collateral, and what happens at expiry.
-
-#### [Start Lending](lending/README.md)
-
-Learn how to deposit USDC, earn yield on matched loans, and claim defaulted collateral.
+Learn how the protocol works, how loans are created, and how lenders participate in the system.
