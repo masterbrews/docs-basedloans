@@ -1,7 +1,7 @@
 ---
 description: DeFi's pawn shop. Instant USDC loans, zero liquidations, fixed terms.
 icon: hand-holding-dollar
-cover: .gitbook/assets/basedloans-cover.png
+cover: .gitbook/assets/basedloans-1500-black.png
 coverY: 0
 layout:
   width: default
