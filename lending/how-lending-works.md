@@ -12,7 +12,13 @@ Based Loans connects lenders with borrowers using a simple, rules-based system. 
 
 Start by depositing USDC into the protocol. The minimum deposit is $200. Your USDC is held in the LendingLedger contract, which handles all matching and repayments.
 
-Your deposited USDC sits as unmatched capital until a borrower opens a loan that draws from it. Unmatched USDC earns no yield yet, but you can withdraw it at any time.
+Your deposited USDC sits as unmatched capital until a borrower opens a loan that draws from it. While unmatched, it is automatically deposited into the mUSDC vault, a Monstro DAO yield-bearing wrapper that earns passive yield on otherwise idle funds. When a loan matches against your USDC, it unwraps automatically. When a borrower buys back, the proceeds wrap back into the vault. The entire process happens behind the scenes, with no action required from you.
+
+The balance shown in your dashboard reflects the exact amount you can withdraw, with the vault mechanics already factored in.
+
+{% hint style="info" %}
+mUSDC is a Monstro DAO product. Based Loans is the first integration. Learn more at [docs.monstrodefi.com](https://docs.monstrodefi.com).
+{% endhint %}
 
 ***
 
@@ -73,6 +79,7 @@ Your $1,000 is matched to that loan.
 ## Summary
 
 - Deposit USDC (minimum $200)
+- Idle USDC auto-wraps into the mUSDC vault and earns passive yield until a loan matches
 - Choose which tokens you will back and set a cap per token (min $50, max $1,000,000)
 - Your USDC is matched automatically to eligible borrowers
 - When a loan resolves, you receive USDC plus a fee (buyback) or collateral tokens (default)
