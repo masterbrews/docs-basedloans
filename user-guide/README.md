@@ -36,4 +36,3 @@ How to claim tokens from expired loans when borrowers have not bought back.
 In the meantime, the [Borrowing](../borrowing/README.md) and [Lending](../lending/README.md) sections explain how each part of the protocol works in detail. If you have a specific question, the [Discord](https://discord.gg/monstrodefi) community can help.
 {% endhint %}
 
-<!-- FLAG: Keith, confirm Discord invite link is correct. Remove this comment and the hint above can be simplified once guides are published. -->

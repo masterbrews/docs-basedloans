@@ -12,9 +12,7 @@ Based Loans was independently audited before launch. The audit covered every con
 
 | Auditor | Scope | Status | Report |
 |---|---|---|---|
-| Hashlock | Core, LendingLedger, AssetManager, FeeDistributor | Completed | [View report](https://hashlock.com/audits/basedloans) |
-
-<!-- FLAG: Confirm with Keith that https://hashlock.com/audits/basedloans is the final correct URL for the audit report before publishing. -->
+| Hashlock | Core, LendingLedger, AssetManager, FeeDistributor | Completed | [View report](https://hashlock.com/audits/monstro) |
 
 The audit examined the full loan lifecycle, including loan opening, buyback processing, collateral claims, lender deposit matching, fee distribution, and all administrative functions. Oracle integration, access control patterns, and arithmetic handling were reviewed in full.
 
@@ -38,7 +36,7 @@ No address in the system has a function to withdraw user funds. Lender USDC in L
 
 ### Minimal privilege surface
 
-The operator role, held by the Labs 2-of-2 multisig, can add or disable assets, adjust fee rates within set bounds, and manage operational parameters. It cannot move user funds, modify the loan lifecycle logic, or change the ownership structure. The owner role, held by the DAO 5-of-7 multisig, can replace the operator and update high-level parameters, but it has the same restriction on user funds. See [Immutability and ownership](immutability-and-ownership.md) for the exact breakdown.
+The operator role, held by the Labs 2-of-2 multisig, can add or disable assets and manage operational parameters such as oracle sources and per-asset deposit caps. It cannot move user funds, modify the loan lifecycle logic, or change the ownership structure. The owner role, held by the DAO 5-of-7 multisig, can replace the operator and update high-level parameters, but it has the same restriction on user funds. See [Immutability and ownership](immutability-and-ownership.md) for the exact breakdown.
 
 ### Fixed loan terms prevent mid-loan manipulation
 
@@ -46,12 +44,10 @@ Because the price, loan amount, and buyback cost are all locked at loan open, th
 
 ### Price manipulation resistance
 
-The dual oracle system requires both a Pyth price feed and a DEX TWAP to agree before a loan can open. A single source being temporarily manipulated is not sufficient to produce an inflated loan. If the two sources diverge, the loan cannot open. See [Oracle and pricing](oracle-and-pricing.md) for the full mechanism.
+Most assets use two oracle sources: a Pyth price feed and a DEX TWAP. A single source being temporarily manipulated is not sufficient to produce an inflated loan. If the sources diverge, the loan cannot open. See [Oracle and pricing](oracle-and-pricing.md) for the full mechanism.
 
 ***
 
 ## Responsible disclosure
 
-If you discover a potential vulnerability in the Based Loans contracts, please disclose it privately before publishing. Contact the team through the official X account [@based\_loans](https://x.com/based_loans) or the Based Loans Discord with a description of the issue. Do not exploit the vulnerability or share it publicly before the team has had the opportunity to review and respond.
-
-<!-- FLAG: Confirm with Keith whether there is a formal bug bounty program or a specific disclosure email to include here. -->
+If you discover a potential vulnerability in the Based Loans contracts, please disclose it privately before publishing. Contact the team through the official X account [@based\_loans](https://x.com/based_loans) or [Discord](https://discord.gg/monstrodefi) with a description of the issue. Do not exploit the vulnerability or share it publicly before the team has had the opportunity to review and respond.

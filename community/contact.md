@@ -10,11 +10,7 @@ The Based Loans team is reachable through X and Discord. Different channels work
 
 ## General support
 
-If you have a question about a loan, a deposit, or how something works in the protocol, the fastest path is the [Discord](https://discord.gg/monstrodefi) community. Post in the relevant channel and someone from the team or community will respond.
-
-<!-- FLAG: Keith, confirm Discord invite link is correct for Based Loans support. -->
-
-For quick public questions, you can also reach out on X at [@based\_loans](https://x.com/based_loans).
+If you have a question about a loan, a deposit, or how something works in the protocol, the fastest path is the [Discord](https://discord.gg/monstrodefi) community. Post in the relevant channel and someone from the team or community will respond. You can also reach the team on [Telegram](https://t.me/MonstroPortal) or on X at [@based\_loans](https://x.com/based_loans).
 
 ***
 

@@ -36,15 +36,9 @@ Listing a token is only useful if lenders are willing to back it. Tokens with st
 
 ## How to apply
 
-If your token meets the criteria above, reach out through one of the following channels.
+Submit your token through the official listing page: [based.loans/list](https://based.loans/list)
 
-**X (Twitter):** [@based\_loans](https://x.com/based_loans). DM us with your token name, contract address, and a brief description of why you believe it meets the listing criteria.
-
-**Discord:** [Join the Based Loans Discord](https://discord.gg/placeholder) and post in the token listing channel.
-
-<!-- FLAG: Discord invite link needs to be confirmed by Keith before publishing. Replace the placeholder above. -->
-
-Include the following in your message:
+Provide the following in your submission:
 
 * Token name and ticker
 * Contract address on Base (BaseScan link preferred)
@@ -52,7 +46,9 @@ Include the following in your message:
 * Pyth price feed ID, if one exists
 * Brief description of the project or community
 
-We review submissions on a rolling basis. There is no formal queue or timeline commitment, but tokens that clearly meet all criteria and have active lender interest move faster.
+You can also reach the team on X at [@based\_loans](https://x.com/based_loans) or in [Discord](https://discord.gg/monstrodefi) if you have questions before submitting.
+
+Submissions are reviewed on a rolling basis. Tokens that clearly meet all criteria and have active lender interest move faster.
 
 ***
 
@@ -65,5 +61,3 @@ New listings are announced through the official X account and Discord. If you ar
 {% hint style="info" %}
 Listing approval is handled by the Labs operator multisig, which manages day-to-day protocol operations. It does not require a DAO vote for standard additions that meet the established criteria.
 {% endhint %}
-
-<!-- FLAG: Confirm with Keith whether the exact listing criteria above (especially the trading activity and oracle requirements) are correct and complete, and whether there is a formal process or contact email to add. -->

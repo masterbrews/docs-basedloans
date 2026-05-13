@@ -24,7 +24,6 @@ Based Loans launched on Base mainnet with a full-featured borrowing and lending 
 
 ## What's next
 
-<!-- FLAG: Keith, please review and confirm or adjust the items below before publishing. These are honest best-guesses based on known priorities, not confirmed roadmap commitments. -->
 
 The following items are in progress or planned. Timelines are not published because they depend on audits, governance, and market conditions.
 
@@ -42,4 +41,3 @@ The best way to follow development is on X at [@based\_loans](https://x.com/base
 
 Community discussion happens on [Discord](https://discord.gg/monstrodefi).
 
-<!-- FLAG: Keith, confirm the Discord URL above is correct for Based Loans community. It currently links to monstrodefi. -->
