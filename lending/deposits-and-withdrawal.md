@@ -41,7 +41,7 @@ Your collateral settings determine which borrowers your USDC can be matched to. 
 
 **Enabling tokens**
 
-You can enable up to 50 collateral tokens at once. For each one, you set a deposit cap: the maximum amount of your USDC that will ever be matched to loans backed by that token. The minimum cap is $500 per token and the maximum is $1,000,000.
+You can enable up to 50 collateral tokens at once. For each one, you set a deposit cap: the maximum amount of your USDC that will ever be matched to loans backed by that token. The minimum cap is $50 per token and the maximum is $1,000,000.
 
 Think of the cap as a ceiling, not a reservation. Enabling VIRTUAL with a $2,000 cap does not set aside $2,000 for VIRTUAL loans. It means up to $2,000 of your deposited USDC can be used for VIRTUAL-backed loans across all borrowers. The actual matching depends on how much you have deposited and how many eligible loans arrive.
 
@@ -71,7 +71,7 @@ When matched loans resolve (buyback or expiry and claim), that USDC or collatera
 - Approval goes to LendingLedger before depositing
 - Unmatched USDC: available to withdraw any time, earns no yield
 - Matched USDC: funding an active loan, locked until the loan resolves
-- Set per-token caps (min $500, max $1,000,000) to control how much USDC backs each token
+- Set per-token caps (min $50, max $1,000,000) to control how much USDC backs each token
 - You can enable up to 50 collateral tokens at once
 - Adjust your settings at any time; changes apply to future matches only
 - Withdraw any unmatched USDC with no lockup or penalty

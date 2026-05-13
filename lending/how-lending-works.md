@@ -20,7 +20,7 @@ Your deposited USDC sits as unmatched capital until a borrower opens a loan that
 
 Before (or after) depositing, you choose which tokens you are willing to back. Based Loans supports a growing list of collateral assets, and you can enable up to 50 at once.
 
-For each token you enable, you set a deposit cap: the maximum amount of your USDC that can be matched to loans backed by that token. The minimum cap per token is $500 and the maximum is $1,000,000.
+For each token you enable, you set a deposit cap: the maximum amount of your USDC that can be matched to loans backed by that token. The minimum cap per token is $50 and the maximum is $1,000,000.
 
 This is how you control your risk. If you are comfortable holding ETH but not a speculative memecoin, enable ETH and skip the rest. Your settings are not permanent. You can add tokens, remove tokens, and adjust caps at any time.
 
@@ -73,7 +73,7 @@ Your $1,000 is matched to that loan.
 ## Summary
 
 - Deposit USDC (minimum $200)
-- Choose which tokens you will back and set a cap per token (min $500, max $1,000,000)
+- Choose which tokens you will back and set a cap per token (min $50, max $1,000,000)
 - Your USDC is matched automatically to eligible borrowers
 - When a loan resolves, you receive USDC plus a fee (buyback) or collateral tokens (default)
 - Unmatched USDC can be withdrawn at any time

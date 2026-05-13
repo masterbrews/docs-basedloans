@@ -10,11 +10,13 @@ A portion of every borrower fee flows to the Monstro DAO treasury. The treasury 
 
 ## Where fees come from
 
-Every loan on Based Loans carries a fixed fee, paid upfront by the borrower at loan open. The fee is determined by the loan term chosen: 15, 30, or 45 days each carry a different rate. See [Fees and terms](../how-it-works/fees-and-terms.md) for the full fee table.
+Two separate fees apply to every Based Loans borrower. The protocol fee is the treasury's source of revenue.
 
-When a loan resolves, the fee is distributed: a portion goes to the lenders who funded the loan as their yield, and a portion flows to the Monstro DAO treasury.
+**Protocol fee (2.49%):** Deducted from the USDC the borrower receives when the loan opens. This fee is collected by the FeeDistributor contract and distributed to the DAO treasury, Monstro Labs, and ecosystem partners. It is paid regardless of whether the borrower buys back.
 
-<!-- FLAG: Keith, the exact percentage split between lenders and the treasury is not confirmed in the docs brief. Currently written as "a portion" to avoid publishing an incorrect figure. Please confirm the split so this can be made specific. -->
+**Term fee (2.5% / 5% / 7.5%):** Added to the borrower's buyback cost. This fee is paid only if the borrower buys back their collateral. It goes entirely to the lenders who funded the loan as their yield. It does not flow to the treasury.
+
+See [Fees and terms](../how-it-works/fees-and-terms.md) for the full breakdown of both fees.
 
 ***
 
@@ -41,7 +43,7 @@ Specific treasury actions are governed by Monstro DAO processes. For full detail
 
 ## Summary
 
-* A portion of every borrower fee flows to the Monstro DAO treasury.
+* A 2.49% protocol fee is deducted from the USDC borrowers receive at loan open and flows to the treasury and ecosystem partners.
 * The treasury is controlled by the 5-of-7 DAO multisig. No unilateral withdrawals are possible.
 * Treasury funds support development, audits, and ecosystem growth.
 * Spending decisions are subject to Monstro DAO governance by MONSTRO token holders.
