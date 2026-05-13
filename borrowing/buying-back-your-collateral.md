@@ -28,13 +28,15 @@ The key point: the buyback cost is locked at open and does not change. If your t
 
 You deposit ETH worth **$1,000** on a 30-day term.
 
-- Loan amount: **$500 USDC** (50% LTV)
-- Protocol fee: small amount deducted at open, shown in the interface before you confirm
-- USDC received in wallet: slightly less than $500
-- Term fee (5%): **$25**, added to buyback cost
-- Buyback cost: **$525 USDC**
+| | |
+|---|---|
+| Loan amount (50% LTV) | $500.00 |
+| Protocol fee deducted at open (2.49%) | -$12.45 |
+| **USDC received in wallet** | **$487.55** |
+| Term fee added to buyback (5%) | +$25.00 |
+| **Buyback cost** | **$525.00** |
 
-To get your ETH back, you send $525 USDC to the protocol any time before day 30. Your ETH is returned to your wallet.
+To get your ETH back, you send **$525.00** to the protocol any time before day 30. Your ETH is returned to your wallet. The $12.45 protocol fee was taken at open; only the $25.00 term fee is part of the buyback.
 
 ***
 

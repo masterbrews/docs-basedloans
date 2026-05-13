@@ -10,13 +10,15 @@ Based Loans offers three loan terms. You choose one when you open a loan, and th
 
 ## Loan terms and fees
 
-| Term | Fee | Buyback cost on a $1,000 loan |
-|---|---|---|
-| 15 days | 2.5% | $1,025 USDC |
-| 30 days | 5% | $1,050 USDC |
-| 45 days | 7.5% | $1,075 USDC |
+| Term | Term fee | USDC received on $1,000 loan | Buyback cost |
+|---|---|---|---|
+| 15 days | 2.5% | $975.10 | $1,025.00 |
+| 30 days | 5% | $975.10 | $1,050.00 |
+| 45 days | 7.5% | $975.10 | $1,075.00 |
 
-The fee is a flat percentage of the loan amount, not the collateral value. If you borrow $500 USDC on a 30-day term, the fee is $25 USDC (5% of $500), and your buyback cost is $525 USDC.
+Two fees apply on every loan. The **protocol fee (2.49%)** is deducted from the USDC you receive when the loan opens. The **term fee (2.5%, 5%, or 7.5%)** is added to your buyback cost. Both are calculated on the loan amount and fixed at open.
+
+On a $1,000 loan: you receive $975.10 after the protocol fee. Your buyback cost depends on the term you choose. The total out-of-pocket cost if you buy back is the gap between what you received and what you pay back.
 
 {% hint style="info" %}
 The minimum loan amount is $50 USDC. To qualify for a loan, your collateral must be worth at least $100 at current prices, since the loan amount is 50% of collateral value.
@@ -42,11 +44,22 @@ For a $600 loan on a 45-day term: `$600 + ($600 × 7.5%) = $600 + $45 = $645 USD
 
 ## What the fee pays for
 
-Two separate fees apply when you borrow.
+Two separate fees apply on every loan. Both are calculated at open, shown in the interface before you confirm, and never change.
 
-**Protocol fee (at loan open).** A small percentage is deducted from the USDC you receive when the loan opens. This goes to the protocol treasury. The interface shows the exact amount before you confirm. If you walk away at expiry without buying back, this is the only fee you pay.
+**Protocol fee (2.49%, at loan open).** Deducted from the USDC you receive. This goes to the protocol treasury and ecosystem partners. If you walk away at expiry without buying back, this is the only fee you pay.
 
-**Term fee (on buyback).** The 2.5%, 5%, or 7.5% term fee is added to your buyback cost. This goes entirely to the lenders who funded your loan. It is how lenders earn yield. Unlike variable-rate protocols, the yield lenders earn is fixed and known from the moment the loan opens.
+**Term fee (2.5% / 5% / 7.5%, on buyback).** Added to your buyback cost. This goes entirely to the lenders who funded your loan. It is how lenders earn yield. The fee is fixed from loan open regardless of when within the term you buy back.
+
+**Full example on a $500 loan, 30-day term:**
+
+| | |
+|---|---|
+| Protocol fee at open (2.49%) | -$12.45 deducted from USDC received |
+| USDC in your wallet | $487.55 |
+| Term fee on buyback (5%) | +$25.00 added to buyback cost |
+| Buyback cost | $525.00 |
+
+You received $487.55 and need $525.00 to reclaim your collateral. The $37.45 difference is the total cost of the loan: $12.45 to the protocol at open, $25.00 to lenders on buyback.
 
 There are no other fees. No origination fee, no early repayment penalty beyond the locked-in term fee, no gas surcharge.
 

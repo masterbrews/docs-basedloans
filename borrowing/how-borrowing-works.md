@@ -60,13 +60,20 @@ Sign the loan transaction. Your collateral is transferred to the protocol, and U
 
 Say you deposit **$1,000 worth of ETH** as collateral on a 30-day term.
 
-- **LTV:** 50%, so your loan amount is **$500 USDC**
-- **Protocol fee:** a small percentage deducted from the $500 at open (the interface shows the exact amount before you confirm)
-- **USDC in your wallet:** slightly less than $500
-- **Term fee:** 5% of $500 = **$25**, added to your buyback cost
-- **Buyback cost:** $500 + $25 = **$525**
+| | Amount |
+|---|---|
+| Collateral value | $1,000 |
+| Loan amount (50% LTV) | $500.00 |
+| Protocol fee deducted at open (2.49%) | -$12.45 |
+| **USDC received in your wallet** | **$487.55** |
+| Term fee added to buyback (5%) | +$25.00 |
+| **Buyback cost** | **$525.00** |
 
-To get your ETH back before day 30, you send $525 to the protocol. The $25 term fee is the lender's yield for funding the loan. The buyback cost does not change, even if ETH goes up or down after the loan opens.
+To get your ETH back before day 30, you send **$525.00** to the protocol. The $12.45 protocol fee was taken at open and goes to the treasury and ecosystem partners. The $25.00 term fee goes to the lenders who funded your loan. Both are fixed from the moment the loan opens. Neither changes, regardless of what ETH does.
+
+{% hint style="info" %}
+The interface shows the exact USDC you will receive and the exact buyback cost before you confirm. No calculation required.
+{% endhint %}
 
 {% hint style="info" %}
 The minimum loan amount is $50 USDC. If your collateral is worth less than $100 at current prices, the loan may not meet the minimum.

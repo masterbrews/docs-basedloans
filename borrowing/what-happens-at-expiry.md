@@ -28,15 +28,15 @@ This is the full extent of what happens. The loan closes, the lenders receive th
 
 This is not a bug or an edge case. It is the core mechanic that makes Based Loans different from every other DeFi lending protocol.
 
-Here is the scenario: you deposit a memecoin worth $1,000 and receive slightly under $500 USDC at open (after the protocol fee). Halfway through the term, that token crashes and is now worth $200. Your buyback cost is still $525 USDC ($500 loan + 5% term fee), fixed at open.
+Here is the scenario: you deposit a memecoin worth $1,000 and receive **$487.55 USDC** at open ($500 loan amount minus the 2.49% protocol fee). Halfway through the term, that token crashes and is now worth $200. Your buyback cost is still $525 USDC ($500 loan + 5% term fee), fixed at open.
 
 Paying $525 to retrieve $200 worth of tokens does not make sense. So you do not pay it. You keep the USDC already in your wallet. The lender takes the $200 of collateral. You came out ahead compared to holding the token through the crash.
 
 | Scenario | You held | You borrowed + walked |
 |----------|----------|-----------------------|
-| Token drops 80% | $200 remaining | ~$491 USDC in hand |
-| Token goes to zero | $0 | ~$491 USDC in hand |
-| Token holds steady | $1,000 | ~$491 USDC (lost upside) |
+| Token drops 80% | $200 remaining | $487.55 USDC in hand |
+| Token goes to zero | $0 | $487.55 USDC in hand |
+| Token holds steady | $1,000 | $487.55 USDC (lost upside) |
 
 Walking away is the rational move any time the collateral's current market value is less than the buyback cost. Lenders understand and accept this risk. They price it into the collateral settings they configure.
 
