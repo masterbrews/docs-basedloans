@@ -1,7 +1,7 @@
 ---
-description: DeFi's pawn shop for time-based, zero-liquidation USDC loans.
-icon: web-awesome
-cover: .gitbook/assets/basedloans-1500.png
+description: DeFi's pawn shop. Instant USDC loans, zero liquidations, fixed terms.
+icon: hand-holding-dollar
+cover: .gitbook/assets/basedloans-cover.png
 coverY: 0
 layout:
   width: default
@@ -26,18 +26,18 @@ layout:
 
 # Welcome to Based Loans
 
-Based Loans introduces a simple lending model inspired by traditional pawn shops, redesigned for crypto users.
+Based Loans is a zero-liquidation lending protocol built on Base.
 
-Borrowers deposit tokens as collateral and receive a USDC loan for a fixed term.
+Deposit tokens as collateral, receive a USDC loan for a fixed term. Buy back your collateral at any time before it expires. No margin calls. No forced selling. No surprises.
 
-Before expiration, borrowers can buy back any portion of their collateral at any time for a fixed price (premium included).
+#### [How It Works](how-it-works/README.md)
 
-At expiration, any remaining collateral is forfeited and transferred to lenders.
+Understand the pawn shop model, loan terms, and how collateral pricing works.
 
-This creates a clear and predictable system where outcomes are defined upfront.
+#### [Start Borrowing](borrowing/README.md)
 
-There are **no liquidations, no margin calls, and no forced selling of collateral.**
+Learn how to open a loan, buy back your collateral, and what happens at expiry.
 
-#### [Explore Based Loans](welcome-to-based-loans/introduction.md)
+#### [Start Lending](lending/README.md)
 
-Learn how the protocol works, how loans are created, and how lenders participate in the system.
+Learn how to deposit USDC, earn yield on matched loans, and claim defaulted collateral.
