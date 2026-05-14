@@ -4,60 +4,60 @@ description: Pay your buyback cost before expiry and get your collateral back.
 
 # Buying back your collateral
 
-You need: enough USDC in your wallet to cover the buyback cost (or the partial amount you want to pay).
+You need: enough USDC in your wallet to cover the buyback cost, or whatever partial amount you want to pay.
 
 ***
 
-## Step 1: Go to Borrow
+## Step 1: Open the buyback drawer
 
-Click **Borrow** in the top navigation. Your active loans are listed on this page.
+On your borrow dashboard, click **Buyback** on the loan you want to reclaim. The buyback drawer opens showing your total cost and how much collateral you get back.
 
-<figure><img src="../.gitbook/assets/ug-buyback-1.png" alt=""><figcaption></figcaption></figure>
+To do a partial buyback, enter a smaller amount. The drawer shows exactly how much collateral you receive for what you pay. Minimum is $1 USDC.
 
-***
-
-## Step 2: Open the buyback panel
-
-Click **Buyback** on the loan you want to reclaim. A panel opens showing your total buyback cost and how much collateral you will receive.
-
-<figure><img src="../.gitbook/assets/ug-buyback-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-borrow-9.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-## Step 3: Enter the amount
+## Step 2: Review the buyback
 
-To buy back everything, leave the amount as the full buyback cost. To do a partial buyback, enter a smaller amount, as low as $1 USDC. The panel shows exactly how much collateral you get back for what you pay.
+Confirm the amount you are paying and the collateral you will receive back. Click **Confirm** when ready.
 
-<figure><img src="../.gitbook/assets/ug-buyback-3.png" alt=""><figcaption></figcaption></figure>
-
-***
-
-## Step 4: Approve USDC
-
-Click **Approve USDC**. Your wallet will ask you to allow the protocol to spend your USDC. Confirm in your wallet.
-
-If you have approved USDC for buybacks before, this step may be skipped.
-
-<figure><img src="../.gitbook/assets/ug-buyback-4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-borrow-10.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-## Step 5: Confirm the buyback
+## Step 3: Sign in your wallet
 
-Click **Confirm buyback** and approve the transaction in your wallet. Your collateral is returned to your wallet immediately.
+Approve the transaction in your wallet. Your USDC is sent to the protocol and your collateral is returned in the same transaction.
 
-<figure><img src="../.gitbook/assets/ug-buyback-5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-borrow-11.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-## Step 6: Done
+## Step 4: Buyback confirmed
 
-Your collateral is back in your wallet. If you paid the full buyback cost, the loan is closed. If you did a partial buyback, the loan remains open with the remaining buyback cost and the same expiry date.
+You will see a success screen. Your collateral has been returned to your wallet.
 
-<figure><img src="../.gitbook/assets/ug-buyback-6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-borrow-12.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## Partial buybacks
+
+If you paid less than the full buyback cost, the loan stays open with a reduced remaining balance. The progress bar on your dashboard shows how much you have already bought back.
+
+<figure><img src="../.gitbook/assets/ug-borrow-13.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## Fully closed
+
+Once the full buyback cost is paid, the loan closes and moves to your past loans. A green bar confirms it was fully bought back.
+
+<figure><img src="../.gitbook/assets/ug-borrow-14.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
 {% hint style="info" %}
-USDC approval for buybacks goes to the LendingLedger contract, not the Core contract. Your wallet will show the correct address automatically.
+USDC for buybacks is approved to the LendingLedger contract. Your wallet will show the correct address automatically.
 {% endhint %}
