@@ -8,7 +8,7 @@ description: Connect your wallet to Based Loans and confirm you are on Base.
 
 Go to [based.loans](https://based.loans). You will see a **Connect wallet** button in the top-right corner.
 
-<figure><img src="../.gitbook/assets/ug-wallet-1.png" alt="Based Loans homepage with Connect wallet button"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-wallet-1.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -16,7 +16,7 @@ Go to [based.loans](https://based.loans). You will see a **Connect wallet** butt
 
 Click **Connect wallet**. A modal opens with the supported wallet options. Select yours — MetaMask, Rabby, Coinbase Wallet, WalletConnect, and others are all supported.
 
-<figure><img src="../.gitbook/assets/ug-wallet-2.png" alt="Wallet selection modal"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-wallet-2.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -24,7 +24,7 @@ Click **Connect wallet**. A modal opens with the supported wallet options. Selec
 
 Your wallet will ask you to approve the connection to based.loans. Click **Connect** or **Approve** in your wallet popup. Make sure you are connecting to **Base** (chainId 8453).
 
-<figure><img src="../.gitbook/assets/ug-wallet-3.png" alt="Wallet approval popup"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-wallet-3.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -32,7 +32,7 @@ Your wallet will ask you to approve the connection to based.loans. Click **Conne
 
 Your wallet address now appears in the top-right corner. You are ready to borrow or lend.
 
-<figure><img src="../.gitbook/assets/ug-wallet-4.png" alt="Connected wallet address in top-right corner"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-wallet-4.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
