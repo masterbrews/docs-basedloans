@@ -10,9 +10,7 @@ You need: USDC on Base and ETH for gas.
 
 ## Step 1: Open the Lend page
 
-Click **Lend** in the top navigation. If you have not deposited before, you will see the new lender screen.
-
-Click **Start lending**.
+Click **Lend** in the top navigation. If you have not deposited before, you will see the new lender screen. Click **Start lending**.
 
 <figure><img src="../.gitbook/assets/ug-lend-1.png" alt=""><figcaption></figcaption></figure>
 
@@ -20,7 +18,7 @@ Click **Start lending**.
 
 ## Step 2: Select your collateral tokens
 
-Choose which tokens you are willing to accept as collateral. You can enable as many as you like. Only tokens you enable here will ever back your loans.
+Choose which tokens you are willing to accept as collateral. Only tokens you select here will ever back your loans. You can change this at any time after.
 
 <figure><img src="../.gitbook/assets/ug-lend-2.png" alt=""><figcaption></figcaption></figure>
 
@@ -28,7 +26,7 @@ Choose which tokens you are willing to accept as collateral. You can enable as m
 
 ## Step 3: Set your limits
 
-For each token you enabled, set a cap — the maximum USDC that can be matched to loans backed by that token. This is how you control your exposure per asset.
+For each token you selected, set a cap — the maximum USDC that can be matched to loans backed by that token. This controls how much of your deposit is at risk per asset.
 
 <figure><img src="../.gitbook/assets/ug-lend-3.png" alt=""><figcaption></figcaption></figure>
 
@@ -42,35 +40,59 @@ Enter how much USDC you want to deposit. The minimum is $200.
 
 ***
 
-## Step 5: Approve USDC
+## Step 5: Review and confirm
 
-Click **Approve USDC** and confirm in your wallet. This allows the protocol to accept your deposit.
+Check your collateral selections, caps, and deposit amount before proceeding. Click **Confirm** when ready.
 
 <figure><img src="../.gitbook/assets/ug-lend-5.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-## Step 6: Confirm the transaction
+## Step 6: Approve USDC
 
-Click **Confirm** and approve in your wallet. Your USDC is deposited and your settings go live in the same transaction.
+The protocol needs your approval to accept USDC. Click **Approve** and sign the transaction in your wallet.
 
 <figure><img src="../.gitbook/assets/ug-lend-6.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-## Step 7: Approve in your wallet
+## Step 7: Confirm the deposit
 
-Confirm the transaction in your wallet popup.
+Once approval is done, sign the deposit transaction in your wallet to finalize everything.
 
 <figure><img src="../.gitbook/assets/ug-lend-7.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-## Step 8: You are live
+## Step 8: Deposit confirmed
 
-Your lend dashboard shows your deposit balance, how much is matched to active loans, and how much is idle. Matching happens automatically — nothing else to do.
+You will see a success screen. Your USDC is now in the protocol and your collateral settings are live.
 
 <figure><img src="../.gitbook/assets/ug-lend-8.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## Step 9: Your lend dashboard
+
+The dashboard shows your total deposit, how much is matched to active loans, and how much is idle. Matching happens automatically — nothing else to do.
+
+<figure><img src="../.gitbook/assets/ug-lend-9.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## Withdrawing
+
+To withdraw, open the withdraw panel from your dashboard. Note that only your idle (unmatched) USDC is available to withdraw. USDC matched to active loans is locked until those loans resolve.
+
+<figure><img src="../.gitbook/assets/ug-lend-10.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## Managing your settings
+
+Click **Lender settings** at any time to adjust which tokens you back and update your caps. Changes take effect immediately for new loan matches and do not affect existing open loans.
+
+<figure><img src="../.gitbook/assets/ug-lend-11.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
