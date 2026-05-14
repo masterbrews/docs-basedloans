@@ -14,7 +14,7 @@ Go to [based.loans](https://based.loans). You will see a **Connect wallet** butt
 
 ## Step 2: Choose your wallet
 
-Click **Connect wallet**. A modal opens with the supported wallet options. Select yours — MetaMask, Rabby, Coinbase Wallet, WalletConnect, and others are all supported.
+Click **Connect wallet**. A modal opens with the supported wallet options. Select yours: MetaMask, Rabby, Coinbase Wallet, WalletConnect, and others are all supported.
 
 <figure><img src="../.gitbook/assets/ug-wallet-2.png" alt=""><figcaption></figcaption></figure>
 

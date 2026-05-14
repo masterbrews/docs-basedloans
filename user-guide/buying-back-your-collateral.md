@@ -26,7 +26,7 @@ Click **Buyback** on the loan you want to reclaim. A panel opens showing your to
 
 ## Step 3: Enter the amount
 
-To buy back everything, leave the amount as the full buyback cost. To do a partial buyback, enter a smaller amount — as low as $1 USDC. The panel shows exactly how much collateral you get back for what you pay.
+To buy back everything, leave the amount as the full buyback cost. To do a partial buyback, enter a smaller amount, as low as $1 USDC. The panel shows exactly how much collateral you get back for what you pay.
 
 <figure><img src="../.gitbook/assets/ug-buyback-3.png" alt=""><figcaption></figcaption></figure>
 

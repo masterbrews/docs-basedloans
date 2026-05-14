@@ -4,7 +4,7 @@ description: A borrower's loan expired without a buyback. Claim your collateral 
 
 # Claiming collateral
 
-When a loan expires and the borrower did not buy back, the collateral belongs to you. It does not move to your wallet automatically — you claim it.
+When a loan expires and the borrower did not buy back, the collateral belongs to you. It does not move to your wallet automatically. You claim it.
 
 ***
 
