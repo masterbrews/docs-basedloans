@@ -4,86 +4,76 @@ description: Deposit USDC, choose your tokens, and start earning yield on matche
 
 # Depositing as a lender
 
-You need: USDC on Base and ETH for gas. That is it.
+You need: USDC on Base and ETH for gas.
 
 ***
 
-## Step 1: Go to Lend
+## Step 1: Open the Lend page
 
-Click **Lend** in the top navigation.
+Click **Lend** in the top navigation. If you have not deposited before, you will see the new lender screen.
+
+Click **Start lending**.
 
 <figure><img src="../.gitbook/assets/ug-lend-1.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-## Step 2: Click Deposit
+## Step 2: Select your collateral tokens
 
-Click the **Deposit** button. A panel opens where you enter your deposit amount.
+Choose which tokens you are willing to accept as collateral. You can enable as many as you like. Only tokens you enable here will ever back your loans.
 
 <figure><img src="../.gitbook/assets/ug-lend-2.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-## Step 3: Enter the amount
+## Step 3: Set your limits
 
-Type in how much USDC you want to deposit. The minimum is $200. You can always deposit more later.
+For each token you enabled, set a cap — the maximum USDC that can be matched to loans backed by that token. This is how you control your exposure per asset.
 
 <figure><img src="../.gitbook/assets/ug-lend-3.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-## Step 4: Approve USDC
+## Step 4: Enter your deposit amount
 
-Click **Approve USDC** and confirm in your wallet. This allows the protocol to accept your deposit.
+Enter how much USDC you want to deposit. The minimum is $200.
 
 <figure><img src="../.gitbook/assets/ug-lend-4.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-## Step 5: Confirm the deposit
+## Step 5: Approve USDC
 
-Click **Deposit** and confirm the transaction in your wallet. Your USDC is now in the protocol.
+Click **Approve USDC** and confirm in your wallet. This allows the protocol to accept your deposit.
 
 <figure><img src="../.gitbook/assets/ug-lend-5.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-## Step 6: Configure your collateral tokens
+## Step 6: Confirm the transaction
 
-Your USDC is deposited but will not be matched to any loans until you enable at least one collateral token. Click **Settings** or **Configure tokens** to open the collateral settings panel.
+Click **Confirm** and approve in your wallet. Your USDC is deposited and your settings go live in the same transaction.
 
 <figure><img src="../.gitbook/assets/ug-lend-6.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-## Step 7: Enable a token and set your cap
+## Step 7: Approve in your wallet
 
-Toggle a token on. A cap field appears. Enter the maximum USDC you want matched to loans backed by that token. Repeat for as many tokens as you want to support.
-
-{% hint style="info" %}
-The cap is a ceiling, not a reservation. Setting a $2,000 cap on VIRTUAL does not lock $2,000 aside. It just means no more than $2,000 of your USDC will ever back VIRTUAL loans at once.
-{% endhint %}
+Confirm the transaction in your wallet popup.
 
 <figure><img src="../.gitbook/assets/ug-lend-7.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-## Step 8: Save your settings
+## Step 8: You are live
 
-Click **Save** and confirm the transaction in your wallet. Your settings are on-chain immediately.
+Your lend dashboard shows your deposit balance, how much is matched to active loans, and how much is idle. Matching happens automatically — nothing else to do.
 
 <figure><img src="../.gitbook/assets/ug-lend-8.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-## Step 9: You are live
-
-Your dashboard shows your deposited USDC, how much is matched to active loans, and how much is available. Matching happens automatically when eligible borrowers open loans.
-
-<figure><img src="../.gitbook/assets/ug-lend-9.png" alt=""><figcaption></figcaption></figure>
-
-***
-
 {% hint style="info" %}
-Unmatched USDC earns passive yield through the mUSDC vault while it waits for a loan match. You do not need to do anything for this to happen.
+Idle USDC earns passive yield through the mUSDC vault automatically while it waits for a loan match.
 {% endhint %}
