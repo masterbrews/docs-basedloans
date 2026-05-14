@@ -1,38 +1,27 @@
 ---
-description: Step-by-step walkthroughs for connecting your wallet, borrowing, lending, and more.
+description: Step-by-step walkthroughs for every action on Based Loans.
 icon: book-open
 ---
 
 # User guide
 
-The user guide covers everything you need to get started on Based Loans, from connecting your wallet for the first time to managing active loans and lender positions. Each section walks through a specific action step by step, with screenshots and explanations of what each screen is showing you.
-
-Detailed conceptual documentation is in the [Borrowing](../borrowing/README.md), [Lending](../lending/README.md), and [How it works](../how-it-works/README.md) sections. The user guide is focused on the practical steps inside the app.
+Pick what you want to do and follow the steps. Each guide is short, visual, and covers exactly one thing.
 
 ***
 
-## Guides coming soon
+## Guides
 
-The following step-by-step guides are in progress and will be published here.
+**●** [**Connecting your wallet**](connecting-your-wallet.md)\
+Get connected to Based Loans on Base in two minutes.
 
-**●** Connecting your wallet\
-How to connect a Base-compatible wallet and make sure you are on the right network.
+**●** [**Opening a loan**](opening-a-loan.md)\
+Deposit collateral, pick a term, receive USDC.
 
-**●** Opening a loan\
-Choosing your collateral token, selecting a term, approving and depositing, and receiving USDC.
+**●** [**Buying back your collateral**](buying-back-your-collateral.md)\
+Pay your buyback cost, get your tokens back. Full or partial.
 
-**●** Buying back your collateral\
-How to initiate a full or partial buyback, what to approve, and how to confirm the transaction.
+**●** [**Depositing as a lender**](depositing-as-a-lender.md)\
+Put your USDC to work. Set it up once, earn on autopilot.
 
-**●** Depositing as a lender\
-How to deposit USDC, configure which tokens you will back, and set your caps.
-
-**●** Claiming collateral\
-How to claim tokens from expired loans when borrowers have not bought back.
-
-***
-
-{% hint style="info" %}
-In the meantime, the [Borrowing](../borrowing/README.md) and [Lending](../lending/README.md) sections explain how each part of the protocol works in detail. If you have a specific question, the [Discord](https://discord.gg/monstrodefi) community can help.
-{% endhint %}
-
+**●** [**Claiming collateral**](claiming-collateral.md)\
+A borrower did not buy back. Here is how to collect what is yours.
