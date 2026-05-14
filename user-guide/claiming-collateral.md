@@ -12,7 +12,7 @@ When a loan expires and the borrower did not buy back, the collateral belongs to
 
 Click **Lend** in the top navigation. Expired loans with unclaimed collateral appear in your loan history.
 
-<figure><img src="../.gitbook/assets/ug-claim-1.png" alt="Lend page showing expired loan with Claim button"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-claim-1.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -20,7 +20,7 @@ Click **Lend** in the top navigation. Expired loans with unclaimed collateral ap
 
 Look for a loan marked as **Defaulted** or showing a **Claim** button. This means the term has ended and the collateral is ready for you to collect.
 
-<figure><img src="../.gitbook/assets/ug-claim-2.png" alt="Defaulted loan card with Claim button highlighted"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-claim-2.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -28,7 +28,7 @@ Look for a loan marked as **Defaulted** or showing a **Claim** button. This mean
 
 Click **Claim**. A panel opens showing the collateral token and amount you are about to receive.
 
-<figure><img src="../.gitbook/assets/ug-claim-3.png" alt="Claim panel showing collateral details"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-claim-3.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -36,7 +36,7 @@ Click **Claim**. A panel opens showing the collateral token and amount you are a
 
 Click **Confirm** and approve the transaction in your wallet. The collateral tokens are sent to your wallet.
 
-<figure><img src="../.gitbook/assets/ug-claim-4.png" alt="Confirm claim transaction step"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-claim-4.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -44,7 +44,7 @@ Click **Confirm** and approve the transaction in your wallet. The collateral tok
 
 The loan is closed. The collateral tokens are now in your wallet. You can hold them, swap them, or do whatever you like.
 
-<figure><img src="../.gitbook/assets/ug-claim-5.png" alt="Claim successful, loan closed"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-claim-5.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

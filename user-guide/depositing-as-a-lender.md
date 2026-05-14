@@ -12,7 +12,7 @@ You need: USDC on Base and ETH for gas. That is it.
 
 Click **Lend** in the top navigation.
 
-<figure><img src="../.gitbook/assets/ug-lend-1.png" alt="Based Loans lend page"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-lend-1.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -20,7 +20,7 @@ Click **Lend** in the top navigation.
 
 Click the **Deposit** button. A panel opens where you enter your deposit amount.
 
-<figure><img src="../.gitbook/assets/ug-lend-2.png" alt="Deposit button on lend page"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-lend-2.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -28,7 +28,7 @@ Click the **Deposit** button. A panel opens where you enter your deposit amount.
 
 Type in how much USDC you want to deposit. The minimum is $200. You can always deposit more later.
 
-<figure><img src="../.gitbook/assets/ug-lend-3.png" alt="Deposit amount entry"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-lend-3.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -36,7 +36,7 @@ Type in how much USDC you want to deposit. The minimum is $200. You can always d
 
 Click **Approve USDC** and confirm in your wallet. This allows the protocol to accept your deposit.
 
-<figure><img src="../.gitbook/assets/ug-lend-4.png" alt="Approve USDC step"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-lend-4.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -44,7 +44,7 @@ Click **Approve USDC** and confirm in your wallet. This allows the protocol to a
 
 Click **Deposit** and confirm the transaction in your wallet. Your USDC is now in the protocol.
 
-<figure><img src="../.gitbook/assets/ug-lend-5.png" alt="Confirm deposit step"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-lend-5.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -52,7 +52,7 @@ Click **Deposit** and confirm the transaction in your wallet. Your USDC is now i
 
 Your USDC is deposited but will not be matched to any loans until you enable at least one collateral token. Click **Settings** or **Configure tokens** to open the collateral settings panel.
 
-<figure><img src="../.gitbook/assets/ug-lend-6.png" alt="Collateral settings panel"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-lend-6.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -64,7 +64,7 @@ Toggle a token on. A cap field appears. Enter the maximum USDC you want matched 
 The cap is a ceiling, not a reservation. Setting a $2,000 cap on VIRTUAL does not lock $2,000 aside. It just means no more than $2,000 of your USDC will ever back VIRTUAL loans at once.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/ug-lend-7.png" alt="Token enabled with cap amount entered"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-lend-7.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -72,7 +72,7 @@ The cap is a ceiling, not a reservation. Setting a $2,000 cap on VIRTUAL does no
 
 Click **Save** and confirm the transaction in your wallet. Your settings are on-chain immediately.
 
-<figure><img src="../.gitbook/assets/ug-lend-8.png" alt="Save settings confirmation"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-lend-8.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -80,7 +80,7 @@ Click **Save** and confirm the transaction in your wallet. Your settings are on-
 
 Your dashboard shows your deposited USDC, how much is matched to active loans, and how much is available. Matching happens automatically when eligible borrowers open loans.
 
-<figure><img src="../.gitbook/assets/ug-lend-9.png" alt="Lender dashboard showing deposit balance and matched status"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ug-lend-9.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
